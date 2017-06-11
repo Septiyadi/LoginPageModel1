@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="id.soldier.rain.loginpagemodel1.mainActivity">
+
+    <RelativeLayout
+        android:id="@+id/layAdd"
+        android:layout_width="match_parent"
+        android:layout_height="140dp"
+        android:background="#5e8df4">
+
+        <TextView
+            android:id="@+id/tvId"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:text="Imagine"
+            android:textColor="#ffffff"
+            android:textSize="30sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/tvSubTitle"
+            android:layout_below="@id/tvId"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:text="This content for our imagine this part"
+            android:textColor="#ffffff"
+            android:textSize="15sp"
+            android:textStyle="bold" />
+
+    </RelativeLayout>
+
+    <TextView
+        android:layout_below="@+id/layAdd"
+        android:id="@+id/tvBs"
+        android:layout_marginTop="20dp"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Please, Login or Register for your Access this Apps"/>
+
+    <ImageView
+        android:layout_marginTop="60dp"
+        android:layout_below="@id/layAdd"
+        android:id="@+id/ivIcon"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:src="@mipmap/ic_launcher"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="20dp"/>
+
+    <Button
+        android:id="@+id/btLogin"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:text="Login"
+        android:textStyle="bold"
+        android:textColor="#ffffff"
+        android:background="#3087d7"
+        android:layout_marginBottom="10dp"
+        android:layout_below="@id/ivIcon" />
+
+    <Button
+        android:id="@+id/btRegist"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:text="Register"
+        android:textStyle="bold"
+        android:textColor="#ffffff"
+        android:background="#3087d7"
+        android:layout_below="@id/btLogin"/>
+
+    <TextView
+        android:id="@+id/tvNs"
+        android:layout_marginTop="50dp"
+        android:layout_below="@id/btRegist"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:textColor="#282020"
+        android:background="#67e7c5"
+        android:textStyle="bold"
+        android:text="Bootcamp Jonggol 05 Juni 2017"/>
+
+</RelativeLayout>
